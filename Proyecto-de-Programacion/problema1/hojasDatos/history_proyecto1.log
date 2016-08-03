@@ -1,0 +1,584 @@
+    1  sudo apt-get upgrade
+    2  sudo apt-get install git
+    3  sudo apt-get vim
+    4  sudo apt-get install vim
+    5  sudo apt-get install chrome
+    6  sudo apt-get install googlechrome
+    7  sudo apt-get install chrome-browser
+    8  sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+    9  cd ~
+   10  ls
+   11  cd Downloads/
+   12  ls
+   13  pwd
+   14  cd git
+   15  cd ..
+   16  cd git/LXS2_evargas/history/
+   17  cat history_12072016_ubn000-FinalDeClase 
+   18  mkdir /srv/servidores
+   19  sudo mkdir /srv/servidores
+   20  ls /var/lib/libvirt/images/
+   21  sudo ls /var/lib/libvirt/images/
+   22  chmod 750 ../scripts/cnts00.sh 
+   23  ll ../scripts/cnts00.sh 
+   24  cat history-root_12072016-ubn000_FinalDeClase 
+   25  sudo apt-get install lvm2
+   26  sudo apt-get install upgrade
+   27  sudo apt-get install update
+   28  sudo apt-get update
+   29  sudo apt-get upgrade
+   30  cat history-root_12072016-ubn000_FinalDeClase 
+   31  grep vmx /proc/cpuinfo 
+   32  sudo ls /proc/cpuinfo
+   33  cat /proc/cpuinfo
+   34  cat history-root_12072016-ubn000_FinalDeClase 
+   35  history
+   36  exit
+   37  ls
+   38  mkdir git
+   39  ls
+   40  cd git
+   41  git clone 
+   42  git clone https://github.com/evargas/LXS2_evargas
+   43  git config --global user.email "luisfelipe.arias@yahoo.com"
+   44  git config --global user.name "felipeale"
+   45  ls
+   46  git clone https://github.com/felipeale/LXS2_farias.git
+   47  ls
+   48  cd LXS2_farias/
+   49  ls
+   50  cat history/history_12072016_ubn000
+   51  ls
+   52  cd ..
+   53  ls
+   54  git clone https://github.com/emvarg/LXS2_evargas.git
+   55  ls
+   56  cd LXS2_evargas/
+   57  ls
+   58  cd history/
+   59  ls
+   60  ll
+   61  cat history_12072016_ubn000-FinalDeClase 
+   62  ll
+   63  cat history-root_12072016-ubn000_FinalDeClase 
+   64  ls
+   65  cd ..
+   66  ls
+   67  vim scripts/TMP_vir.sh 
+   68  apt-get install qemu-kvm
+   69  sudo apt-get install qemu-kvm
+   70  sudo apt-get install qemu-system
+   71  vim scripts/TMP_vir.sh 
+   72  cp scripts/TMP_vir.sh TMP2.sh
+   73  ls scripts/
+   74  cd scripts/
+   75  cd ..
+   76  ls
+   77  cd scripts/
+   78  ls
+   79  history
+   80  exit
+   81  apt-get install virt-viewer gitk
+   82  sudo apt-get install virt-viewer gitk
+   83  apt-get install kvm
+   84  sudo apt-get install kvm
+   85  ls /var/lib/libvirt/images/
+   86  sudo ls /var/lib/libvirt/images/
+   87  cd ..
+   88  ls
+   89  cd farias/
+   90  sudo cd /var/lib/libvirt/
+   91  su
+   92  passwd root
+   93  sudo passwd root
+   94  sudo apt-get install virt-install
+   95  su
+   96  df -h
+   97  w
+   98  env
+   99  vim /etc/bash_completion
+  100  vim /etc/bash.bashrc
+  101  vim /etc/bash_completion.d/
+  102  vim .bashrc
+  103  echo var2
+  104  echo $var2
+  105  source .bashrc 
+  106  echo $var2
+  107  exit
+  108  ls
+  109  mkdir vmstorage
+  110  cd vmstorage/
+  111  ls
+  112  pwd
+  113  echo $HOSTNAME
+  114  pwd
+  115  $dnd=/home/farias/vmstorage/
+  116  $var1=/home/farias/vmstorage/
+  117  sudo apt-get install htop
+  118  htop
+  119  su
+  120  sudo apt-get install catdoc
+  121  bash version 
+  122  bash --version
+  123  echo $BASH_VERSION
+  124  #moba extreme
+  125  cd /tmp
+  126  ls
+  127  dmesg > file1
+  128  less file1
+  129  ls -l
+  130  history > file1
+  131  ls
+  132  history > file1
+  133  ls -l
+  134  history >> file1
+  135  cat error.log
+  136  mkdir folder {1,2,3}
+  137  tree
+  138  sudo apt-get install tree
+  139  touch foler {1,2,3}/file{a,b}
+  140  tree
+  141  echo $HOSTNAME
+  142  history > 'date'_$HOSTNAME
+  143  LS
+  144  ls
+  145  date
+  146  echo date_ubuntuFA 
+  147  cat date_ubuntuFA 
+  148  htop
+  149  pstree | less
+  150  ps aux | grep ligh
+  151  ps tree | less
+  152  ps tree less
+  153  pstree | less
+  154  sudo apt-get upgrade
+  155  sudo apt-get upgrade > quepaso.log
+  156  ls
+  157  cat quepaso.log 
+  158  apt-get install screen
+  159  sudo apt-get install screen
+  160  rm -f {1,2,3}
+  161  rm -rf {1,2,3}
+  162  ls
+  163  sudo apt-get install openssh-server
+  164  sudo apt-get update
+  165  ping yahoo.com
+  166  cd git/LXS2_farias/src/
+  167  ls
+  168  ls -la
+  169  rm script1
+  170  ls
+  171  bash script1.sh 
+  172  ls
+  173  cat script1.sh.err 
+  174  echo  " " script1.sh.err
+  175  cat script1.sh.err 
+  176  dmesg | tail > archivo1.txt
+  177  ls
+  178  ls -l
+  179  bash script1.sh
+  180  ls -l
+  181  bash script1.sh
+  182  rm archivo1.txt
+  183  bash script1.sh
+  184  echo $ERRORLOG
+  185  dmesg | tail > archivo1.txt
+  186  rm script1.sh.err 
+  187  ls -l
+  188  bash script1.sh 
+  189  ls -l
+  190  cat archivo1.txt
+  191  ls
+  192  sudo apt-get exim4
+  193  sudo apt-get install exim4
+  194  sudo vim /etc/exim4/update-exim4.conf.conf 
+  195  sudo dpkg-reconfigure exim4
+  196  sudo dpkg-reconfigure exim4-config 
+  197  sudo update exim4.conf
+  198  sudo update-exim4.conf
+  199  sudo dpkg-reconfigure exim4-config 
+  200  sudo update-exim4.conf
+  201  echo "Este es mi primer correo" | mail -s "Pruba de correo" luisfelipe.arias@yahoo.com
+  202  sudo update-exim4.conf
+  203  echo "Este es mi primer correo" | mail -s "Pruba de correo" l.felipearias@gmail.com
+  204  su
+  205  ls
+  206  cd git
+  207  ls
+  208  git config --global user.email "luisfelipe.arias@yahoo.com"
+  209  git config --global user.name "Felipe"
+  210  git clone https://github.com/felipeale/p_final.git
+  211  ls
+  212  cd p_final/
+  213  ls
+  214  s✉❞♦ r♣♠ ✲❯❤✈ ❤tt♣✿✴✴♣❛❝❦❛❣❡s✳s✇✳❜❡✴r♣♠❢♦r❣❡✲r❡❧❡❛s❡✴r♣♠❢♦r❣❡✲
+  215  sud p rpm-Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  216  sudo rpm-Uhv http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+  217  sudo yum update
+  218  apt-get install catdoc
+  219  sudp apt-get install catdoc
+  220  sudo apt-get install catdoc
+  221  cd ..
+  222  ls
+  223  cd /home/farias/Downloads/Proyecto-de-Programacion/
+  224  ls
+  225  cd problema1/hojasDatos/
+  226  ls
+  227  xls2csv datos1.xls >> datos1.csv
+  228  xls2csv datos2.xls >> datos2.csv
+  229  xls2csv datos3.xls >> datos3.csv
+  230  xls2csv datos4.xls >> datos4.csv
+  231  xls2csv datos5.xls >> datos5.csv
+  232  pwd
+  233  fg
+  234  vim problema1.sh 
+  235  chmod 750 problema1.sh
+  236  ls -ll
+  237  ./problema1.sh 
+  238  ls
+  239  vim problema1.sh qiot
+  240  ls
+  241  vim problema1.sh
+  242  ls
+  243  ls ../Datos
+  244  cd ..
+  245  ls
+  246  vim hojasDatos/problema1.sh 
+  247  cd hojasDatos/
+  248  ls
+  249  vim problema1.sh 
+  250  bash problema1.sh 
+  251  ls
+  252  cd datos
+  253  cd datos_csv/
+  254  ls
+  255  vim ../problema1.sh 
+  256  bash problema1.sh 
+  257  ls
+  258  cd ..
+  259  ls
+  260  bash problema1.sh 
+  261  cd datos_csv/
+  262  ls
+  263  cd ..
+  264  ls
+  265  vim problema1.sh 
+  266  cd ..
+  267  ls
+  268  cd hojasDatos/
+  269  ls
+  270  bash problema1.sh 
+  271  ls datos/
+  272  ls datos_csv/
+  273  cd datos_csv/
+  274  ls
+  275  cd ..
+  276  vim problema1.sh 
+  277  cat error1.log 
+  278  ls
+  279  vim problema1.sh 
+  280  tree
+  281  cd datos_csv/
+  282  ls
+  283  vim problema1.sh 
+  284  vim .. problema1.sh 
+  285  cd ..
+  286  ls
+  287  vim problema1.sh 
+  288  pwd
+  289  vim problema1.sh 
+  290  rm -rf *.csv
+  291  ls
+  292  bash problema1.sh 
+  293  ls datos_csv/
+  294  vim problema1.sh 
+  295  bash problema1.sh 
+  296  ls datos_csv/
+  297  vim datos_csv/data-0.csv 
+  298  vim problema1.sh 
+  299  bash problema1.sh 
+  300  ls
+  301  tree
+  302  rm -rf datos_csv/
+  303  ls
+  304  tree
+  305  sudo pm-hibernate
+  306  vim /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+  307  sudo vim /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+  308  ls
+  309  cd git/
+  310  ls
+  311  cd LXS2_farias/
+  312  ls
+  313  cd sers
+  314  cd src/
+  315  ls
+  316  vim cliclofor.sh
+  317  cp cliclofor.sh ciclofor2.sh
+  318  vim ciclofor2
+  319  vim ciclofor2.sh 
+  320  bash ciclofor2.sh 
+  321  ls 
+  322  bash cliclofor.sh 
+  323  ls
+  324  bash cliclofor.sh 
+  325  vim cliclofor.sh 
+  326  git status
+  327  cd ..
+  328  ls
+  329  cd p_final/
+  330  ls 
+  331  cd problema1/hojasDatos/
+  332  ls
+  333  cd ..
+  334  ls
+  335  find .
+  336  git update
+  337  git update-ref
+  338  ls
+  339  cd LXS2_evargas/
+  340  git status
+  341  git update-ref
+  342  git status
+  343  cd ..
+  344  ls
+  345  cd LXS2_farias/
+  346  ls
+  347  git status
+  348  git add .
+  349  git status
+  350  git commit .
+  351  cd /home/farias/Downloads/Proyecto-de-Programacion/
+  352  ls -l
+  353  cd problema1
+  354  ls
+  355  cd Datos
+  356  ls
+  357  cd hojasDatos/
+  358  ls
+  359  vim problema1.sh 
+  360  bash problema1.sh 
+  361  ls
+  362  ll git
+  363  ll git/p_final/
+  364  ll Documents/
+  365  cd Downloads/
+  366  ls
+  367  cd Proyecto-de-Programacion/
+  368  ls
+  369  cd problema1
+  370  ls
+  371  cd ..
+  372  cp -a Proyecto-de-Programacion ../git/p_final/.
+  373  ll ../git/p_final/
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd git/
+  378  ls
+  379  cd p_final/
+  380  ls
+  381  cd Proyecto-de-Programacion/
+  382  ls
+  383  cd problema
+  384  cd problema`
+1
+\q
+
+
+..
+exit
+:q
+\q
+'
+;
+cd Proyecto-de-Programacion/
+ls
+"
+"
+;
+`
+  385  cd problema1
+  386  ls
+  387  tree
+  388  cd hojasDatos/
+  389  ls
+  390  cd ..
+  391  file hojasDatos/archivos_csv/data-0.csv 
+  392  ls
+  393  iconv -f iso-8859-1 -t utf-8 Datos >>  datos.utf-8.out
+  394  ls
+  395  cat Datos 
+  396  tail datos.utf-8.out 
+  397  file datos.utf-8.out 
+  398  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+`
+'
+''
+"
+'
+;
+}
+  399  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  400  vim test
+  401  fg
+  402  vim test
+  403  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""`{print $1 " " $2 " " $3 " " $4 " " $5}` | head
+`
+'
+`
+``
+'
+"
+  404  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""`{print $1 " " $2 " " $3 " " $4 " " $5}` | head"
+  405  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""`{print $1 " " $2 " " $3 " " $4 " " $5 " "}` | head"
+  406  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",/""`{print $1 " " $2 " " $3 " " $4 " " $5 " "}` | head
+"
+  407  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""`{print $1 " " $2 " " $3 " " $4 " " $5 " "}` | head
+  408  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  409  sudo apt-get install awk
+  410  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  411  cat hojasDatos/archivos_csv/data-0.csv | awk -f "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  412  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  413  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""`{print $1 " " $2 " " $3 " " $4 " " $5}` | head
+  414  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  415  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}'. | head
+  416  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' .| head
+  417  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  418  ls
+  419  cd hojas
+  420  cd hojasDatos/
+  421  ls
+  422  cd archivos_csv/
+  423  ls
+  424  cat data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  425  cat data-0.csv | awk --F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  426* cat data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}'
+  427* cat data-0.csv | awk --F "\",\"" 'data-{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  428  cat data-0.csv | awk --F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  429  cat data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  430  cat data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g'| head
+  431  cat data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' | head
+  432  git status
+  433  git add
+  434  git add ../../../
+  435  git status
+  436  git commit .
+  437  git commit
+  438  git status
+  439  git push
+  440  ls
+  441  cd ..
+  442  ls
+  443  vim problema1.sh 
+  444  fg
+  445  ./problema1.sh 
+  446  tree
+  447  cat error2.log 
+  448  vim problema1.sh 
+  449  ./problema1.sh 
+  450  tree
+  451  vim problema1.sh 
+  452  cat error2.log 
+  453  cat error1.log 
+  454  ls
+  455  vim problema1.sh 
+  456  ./problema1.sh 
+  457  vim problema1.sh 
+  458  ./problema1.sh 
+  459  ll
+  460  vim problema1.sh 
+  461  cp -a archivos_csv archivos_csv1
+  462  ls
+  463  tree
+  464  rm -rf archivos_csv
+  465  ./problema1.sh 
+  466  ls
+  467  ll
+  468  sudo ./problema1.sh 
+  469  vim problema1.sh 
+  470  ls
+  471  rm -rf archivos_csv1
+  472  ls
+  473  cat error1.log 
+  474  cat error2.log 
+  475  ls
+  476  ./problema1.sh 
+  477  tree
+  478  mkdir archivos_csv
+  479  ls
+  480  rm -rf archivos_csv
+  481  pw
+  482  pwd
+  483  vim problema1.sh 
+  484  ./problema1.sh 
+  485  ls
+  486  tree
+  487  gnuplot
+  488  sudo apt-get install gnuplot
+  489  git status
+  490  git commit
+  491  git add
+  492  git status
+  493  git add problema1.sh, datos_graf/, error2.log 
+  494  git add problema1.sh
+  495  git add datos_graf/
+  496  git add error2.log 
+  497  git commit
+  498  git push
+  499  git status
+  500  pwd
+  501  ls
+  502  vim problema1.sh 
+  503  rm -rf archivos_csv
+  504  cp -a datos_graf datos_graf.old
+  505  ls
+  506  rm -rf datos_graf
+  507  ls
+  508  ./problema1.sh 
+  509  ls
+  510  vim problema1.sh 
+  511  rm -rf archivos_csv 
+  512  rm -rf fig1.png 
+  513  rm -rf full_datos
+  514  rm -rf datos_graf
+  515  rm -rf datos_graf.old
+  516  ls
+  517  vim problema1.sh 
+  518  rm -rf erro*
+  519  ls
+  520  ./problema1.sh 
+  521  ls
+  522  git status
+  523  git add *
+  524  git status
+  525  git push
+  526  git status
+  527  git commit 
+  528  git commit *
+  529  git status
+  530  git push
+  531  git status
+  532  ls
+  533  cat error2.log 
+  534  cat error1.log 
+  535  ls
+  536  cat error3.log 
+  537  cat error.log 
+  538  history > history_proyecto1.log
+  539  cat history_proyecto1.log
+  540  tail history > history_proyecto1.log
+  541  git status
+  542  git push history_proyecto1.log
+  543  git commit 
+  544  git commit history_proyecto1.log 
+  545  git add history_proyecto1.log 
+  546  git commit
+  547  git commit history_proyecto1.log 
+  548  git push
+  549  cat history_proyecto1.log 
+  550  ls
+  551  cat history_proyecto1.log
+  552  vim history_proyecto1.log 
+  553  history
+  554  history > history_proyecto1.log
